@@ -1,0 +1,4 @@
+configuration,chunk_size,chunk_overlap,total_chunks,top_k,question_count,page_labelled_question_count,source_hit_rate,source_mrr,page_hit_rate,page_mrr
+A: 500/0,500,0,374,5,25,14,1.0,0.838,1.0,0.881
+B: 250/50,250,50,834,5,25,14,0.96,0.8447,1.0,0.8155
+C: 800/100,800,100,253,5,25,14,1.0,0.8867,1.0,0.881

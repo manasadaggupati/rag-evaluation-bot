@@ -1,0 +1,153 @@
+
+[
+  {
+    "question": "What is an embedding in machine learning?",
+    "relevant_passages": [
+      {
+        "source": "LLM.pdf",
+        "page": 8,
+        "reason": "Explains how embedding models map text into numerical vectors."
+      },
+      {
+        "source": "RAG.pdf",
+        "page": 7,
+        "reason": "Explains embeddings and similarity search."
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of reranking in a RAG pipeline?",
+    "relevant_passages": [
+      {
+        "source": "RAG.pdf",
+        "page": 10,
+        "reason": "Explains reranking and its role in selecting passages for final context."
+      }
+    ]
+  },
+  {
+    "question": "What is the role of embeddings in machine learning?",
+    "relevant_passages": [
+      {
+        "source": "LLM.pdf",
+        "page": 8,
+        "reason": "Explains text embeddings and vector representations."
+      },
+      {
+        "source": "RAG.pdf",
+        "page": 7,
+        "reason": "Explains how text is represented as vectors for similarity search."
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of tokenization in language models?",
+    "relevant_passages": [
+      {
+        "source": "AI & ML.pdf",
+        "page": 11,
+        "reason": "Directly explains how tokenizers map text to token IDs."
+      }
+    ]
+  },
+  {
+    "question": "What are the trade-offs of using small and large chunks?",
+    "relevant_passages": [
+      {
+        "source": "RAG.pdf",
+        "page": 6,
+        "reason": "Explains the precision and context trade-offs of small and large chunks."
+      }
+    ]
+  },
+  {
+    "question": "How does chunk overlap help retrieval, and what costs does it introduce?",
+    "relevant_passages": [
+      {
+        "source": "RAG.pdf",
+        "page": 6,
+        "reason": "Explains how overlap reduces boundary-related information loss; verify the complete cost discussion on this page before finalizing the label."
+      }
+    ]
+  },
+  {
+    "question": "Why is embedding similarity not proof of factual support?",
+    "relevant_passages": [
+      {
+        "source": "RAG.pdf",
+        "page": 7,
+        "reason": "Explicitly states that similarity is a proxy for relevance, not proof of factual support."
+      }
+    ]
+  },
+  {
+    "question": "Why can increasing the top-k value hurt RAG answer quality?",
+    "relevant_passages": [
+      {
+        "source": "RAG.pdf",
+        "page": 10,
+        "reason": "Explains how large top-k values can add noise, increase context length, raise latency and cost, and distract the generator."
+      }
+    ]
+  },
+  {
+    "question": "What is the difference between answer correctness and faithfulness?",
+    "relevant_passages": [
+      {
+        "source": "RAG.pdf",
+        "page": 13,
+        "reason": "Distinguishes agreement with trusted facts from support by retrieved context."
+      }
+    ]
+  },
+  {
+    "question": "What is the difference between sparse and dense retrieval?",
+    "relevant_passages": [
+      {
+        "source": "RAG.pdf",
+        "page": 8,
+        "reason": "Compares lexical weighting in sparse retrieval with embedding-based dense retrieval."
+      }
+    ]
+  },
+  {
+    "question": "How does BM25 rank documents?",
+    "relevant_passages": [
+      {
+        "source": "RAG.pdf",
+        "page": 8,
+        "reason": "Explains term frequency, inverse document frequency, diminishing returns, and document-length normalization."
+      }
+    ]
+  },
+  {
+    "question": "What is the difference between Hit Rate@k and Recall@k?",
+    "relevant_passages": [
+      {
+        "source": "RAG.pdf",
+        "page": 12,
+        "reason": "Defines Hit Rate@k and Recall@k and explains their different calculations."
+      }
+    ]
+  },
+  {
+    "question": "What does Mean Reciprocal Rank measure?",
+    "relevant_passages": [
+      {
+        "source": "RAG.pdf",
+        "page": 12,
+        "reason": "Defines reciprocal rank and mean reciprocal rank for ranked retrieval results."
+      }
+    ]
+  },
+  {
+    "question": "What is the role of a vector store in RAG?",
+    "relevant_passages": [
+      {
+        "source": "RAG.pdf",
+        "page": 9,
+        "reason": "Explains how a vector store holds vectors and associated records and supports similarity search."
+      }
+    ]
+  }
+]

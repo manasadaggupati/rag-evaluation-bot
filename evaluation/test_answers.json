@@ -1,0 +1,23 @@
+
+[
+  {
+    "question": "What is the Central Limit Theorem?",
+    "expected_answer": "The Central Limit Theorem states that the sampling distribution of the sample mean approaches a normal distribution as the sample size becomes sufficiently large, under suitable conditions."
+  },
+  {
+    "question": "What is Retrieval-Augmented Generation?",
+    "expected_answer": "RAG retrieves relevant information from external documents and uses that context to generate an answer."
+  },
+  {
+    "question": "What is an embedding in machine learning?",
+    "expected_answer": "An embedding is a numerical vector representation of data that captures semantic or meaningful relationships."
+  },
+  {
+    "question": "What is a large language model?",
+    "expected_answer": "A large language model is trained on large amounts of text to understand and generate human-like language."
+  },
+  {
+    "question": "What is the purpose of chunking in RAG?",
+    "expected_answer": "Chunking divides documents into smaller pieces so relevant information can be retrieved and supplied to the language model."
+  }
+]

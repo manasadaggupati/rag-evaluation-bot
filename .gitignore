@@ -1,0 +1,29 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+venv_new/
+.venv/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local vector database
+chroma_db/
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local Python environment configuration
+pyvenv.cfg
+
+# Downloaded PDF documents
+data/documents/*.pdf

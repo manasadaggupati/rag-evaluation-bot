@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+    <div class="app-container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Zenee</h2>
+                <button id="new-chat-btn">+ New chat</button>
+            </div>
+
+            <div class="sidebar-info">
+                <p>Ask questions from your PDFs.</p>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-container">
+
+            <header class="chat-header">
+                <h3>Multi-PDF RAG Chatbot</h3>
+                <span>AI-powered document assistant</span>
+            </header>
+
+            <section id="chat-messages" class="chat-messages">
+                <div class="welcome-message">
+                    <h1>How can I help you?</h1>
+                    <p>Ask me anything about your uploaded knowledge base.</p>
+                </div>
+            </section>
+
+            <!-- Message Input -->
+            <form id="chat-form" class="chat-input-area">
+                <textarea
+                    id="user-input"
+                    placeholder="Ask a question about your PDFs..."
+                    rows="1"
+                    required
+                ></textarea>
+
+                <button type="submit" id="send-btn">Send</button>
+            </form>
+
+            <p class="disclaimer">
+                Answers are generated from retrieved document content.
+            </p>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

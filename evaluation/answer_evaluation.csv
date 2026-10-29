@@ -1,0 +1,6 @@
+timestamp,question,answer_quality_score,latency_seconds,status
+2026-10-28T18:57:02,What is the Central Limit Theorem?,5,26.35,success
+2026-10-28T18:57:15,What is Retrieval-Augmented Generation?,5,10.07,success
+2026-10-28T18:57:39,What is an embedding in machine learning?,5,13.2,success
+2026-10-28T18:57:58,What is a large language model?,5,4.5,success
+2026-10-28T18:58:25,What is the purpose of chunking in RAG?,5,15.95,success
